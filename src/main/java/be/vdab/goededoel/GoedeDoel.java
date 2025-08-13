@@ -3,32 +3,36 @@ package be.vdab.goededoel;
 import java.math.BigDecimal;
 
 /**
- * Een <strong>goed doel * @author Joe Dalton
+ * Een <strong>goed doel</strong> waarvoor men geld inzamelt.
+ * 
+ * @author Joe Dalton
  */
 public class GoedeDoel {
     private final String naam;
     private BigDecimal opbrengst = BigDecimal.ZERO;
 
     /**
-     * </strong>
-     * <p>
-     * waarvoor men geld inzamelt
-     * <p>
-     * Maakt een GoedeDoel object * @param naam De naam van het goede doel
+     * Maakt een GoedeDoel object
+     * 
+     * @param naam De naam van het goede doel
      */
     public GoedeDoel(String naam) {
         this.naam = naam;
     }
 
     /**
-     * Geeft de naam terug * @return de naam
+     * Geeft de naam terug
+     * 
+     * @return de naam
      */
     public String getNaam() {
         return naam;
     }
 
     /**
-     * Geeft de opbrengst terug * @return de opbrengst
+     * Geeft de opbrengst terug
+     * 
+     * @return de opbrengst
      */
     public BigDecimal getOpbrengst() {
         return opbrengst;
